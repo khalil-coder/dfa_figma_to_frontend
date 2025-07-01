@@ -1,0 +1,43 @@
+#how-it-works-section {
+    margin-top: 3em;
+    display: flex;
+    gap: 4em;
+}
+
+#left-how-it-works-container {
+    display: flex;
+    align-items: center;
+    gap: 1.7em;
+    text-align: center;
+}
+
+.image-card {
+    box-shadow: 0 0 10px 5px #E5E5E5;
+    border-radius: 20px;
+}
+
+#img-left-container {
+    display: grid;
+    gap: 4em;
+}
+
+.how-it-works-par {
+    font-family: "Graphik-Light";
+}
+
+#img-right-container .image-card {
+    padding-bottom: 1px;
+}
+
+
+#right-how-it-works-container{
+    display:  grid;
+}
+#right-how-it-works-container h2{
+    font-size: 30px;
+}
+
+#right-how-it-works-container h3{
+    font-size: 1.5em;
+    font-family: "Graphik-Medium";
+}

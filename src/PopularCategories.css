@@ -1,0 +1,101 @@
+#popular-categories-section {
+    margin-top: 5em;
+}
+
+#popular-categories-section h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: "Graphik-Bold";
+    margin-bottom: 40px;
+}
+
+#categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.category-card {
+    display: grid;
+    width: clamp(200px, 90%, 250px);
+    flex-grow: 1;
+    place-items: center;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-block: 3em;
+}
+
+.category-card p {
+    font-family: "Graphik-Medium";
+    margin-bottom: 0;
+}
+
+.category-card small {
+    color: #9B9B9B;
+}
+
+
+#jobs-from-top-companies {
+    display: flex;
+    gap: 3em;
+    background-color: #06942A0D;
+    margin-right: -112px;
+    margin-top: 5em;
+    padding-inline: 3.5em;
+    padding-block: 5em;
+    align-items: baseline;
+}
+
+#jobs-from-top-companies #left-div-jobs-from-top-companies h2 {
+    font-size: 36px;
+    font-family: "Graphik-Medium";
+}
+
+
+#company-brand-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    margin: auto;
+}
+
+#zapier-brand,
+#accenture-brand {
+    justify-self: center;
+    margin-top: -100px;
+    margin-right: 50px;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+#company-brand-container #zapier-brand {
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#company-brand-container #accenture-brand {
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#nine-mobile-brand,
+#uber-brand {
+    margin-left: 20px
+}
+
+#google-brand,
+#airtel-brand {
+    margin-top: -100px;
+}
+
+#mckinsey-brand,
+#flutterwave-brand {
+    margin-top: -100px;
+    margin-left: 15px;
+}
+
+#jobs-from-top-companies button {
+    background-color: transparent;
+    padding: 0;
+    /* background: linear-gradient(180deg, blue, #06942A); */
+}

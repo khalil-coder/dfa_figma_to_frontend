@@ -1,0 +1,51 @@
+#section-2 {
+    margin-top: 5em;
+}
+#section-2 h2 {
+    font-family: "Graphik-Bold";
+    font-size: 2.1em;
+}
+#job-cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.job-card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 300px;
+    box-shadow: 0 0 10px 1px #2221;
+}
+
+.job-card .card-top,
+.job-card .card-bottom {
+    background-color: white;
+}
+
+.job-card .card-top {
+    padding-block: 1em;
+    flex-grow: 1;
+    display: grid;
+}
+
+.job-card .card-bottom {
+    padding-left: 12px;
+}
+
+.card-footer small {
+    font-weight: 600;
+    background-color: transparent;
+    color: #06942A;
+    font-Size: 16px,
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    padding-right: 15px;
+}
