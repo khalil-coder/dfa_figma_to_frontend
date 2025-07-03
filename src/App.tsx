@@ -1,4 +1,4 @@
-// import React, { useState } from 'react'
+import React, { useState } from 'react'
 import Navbar from './Navbar'
 import './App.css'
 import RecommendedJobs from './RecommendedJobs'
@@ -6,6 +6,7 @@ import HowItWorks from './HowItWorks'
 import PopularCategories from './PopularCategories'
 import Testimonial from './Testimonial'
 import Footer from './Footer'
+
 
 function App() {
   return (
@@ -37,7 +38,7 @@ function App() {
       <HowItWorks />
       <PopularCategories />
       <Testimonial />
-      <Footer/>
+      <Footer />
     </>
   )
 }
